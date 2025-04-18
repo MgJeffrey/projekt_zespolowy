@@ -1,0 +1,238 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "scene": {
+        "scale_factor": 510.60662841796875
+    },
+    "shaders": {
+        "Main shader": {
+            "displacementTessellation": {
+                "displacement": {
+                    "scale": 0,
+                    "source_channel": 0
+                },
+                "enable": true,
+                "tessellation": {
+                    "max_length": 64,
+                    "subdiv_count": 1,
+                    "subdiv_mode": 0
+                }
+            },
+            "parameters": {
+                "Base Surface": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Geometry/Bent Normal": {
+                    "bent_normal_diffuse_amount": 1,
+                    "bent_normal_specular_amount": 1,
+                    "use_bent_normal": false
+                },
+                "Geometry/Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                }
+            },
+            "shader": "pbr-metal-rough-with-alpha-blending",
+            "shaderInstance": "Main shader"
+        },
+        "Main shader (Copy)": {
+            "displacementTessellation": {
+                "displacement": {
+                    "scale": 0,
+                    "source_channel": 0
+                },
+                "enable": true,
+                "tessellation": {
+                    "max_length": 64,
+                    "subdiv_count": 1,
+                    "subdiv_mode": 0
+                }
+            },
+            "parameters": {
+                "Base Surface": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Geometry/Bent Normal": {
+                    "bent_normal_diffuse_amount": 1,
+                    "bent_normal_specular_amount": 1,
+                    "use_bent_normal": false
+                },
+                "Geometry/Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                }
+            },
+            "shader": "pbr-metal-rough-with-alpha-blending",
+            "shaderInstance": "Main shader (Copy)"
+        }
+    },
+    "texturesets": {
+        "AlarmGlass_SimpleShader": {
+            "shader": "Main shader"
+        },
+        "Box": {
+            "shader": "Main shader"
+        },
+        "Chalkboard_Green": {
+            "shader": "Main shader"
+        },
+        "Clean Keyboard": {
+            "shader": "Main shader"
+        },
+        "ComputerCase": {
+            "shader": "Main shader"
+        },
+        "Desk wood": {
+            "shader": "Main shader (Copy)"
+        },
+        "Frozen white metal": {
+            "shader": "Main shader"
+        },
+        "Glass": {
+            "shader": "Main shader"
+        },
+        "Light": {
+            "shader": "Main shader"
+        },
+        "Lock_metal": {
+            "shader": "Main shader"
+        },
+        "Material.001": {
+            "shader": "Main shader"
+        },
+        "Mouse - Mat Grey": {
+            "shader": "Main shader"
+        },
+        "Mouse - Shiny Grey": {
+            "shader": "Main shader"
+        },
+        "Mouse - Wheel Grey": {
+            "shader": "Main shader"
+        },
+        "Oak-Floor-Hungarian-Clean": {
+            "shader": "Main shader"
+        },
+        "Office Chair_Fabric": {
+            "shader": "Main shader"
+        },
+        "Office Chair_Metal": {
+            "shader": "Main shader"
+        },
+        "Office Chair_Painted Metal": {
+            "shader": "Main shader"
+        },
+        "Office Chair_Plastic": {
+            "shader": "Main shader"
+        },
+        "Page 1": {
+            "shader": "Main shader"
+        },
+        "Page 2": {
+            "shader": "Main shader"
+        },
+        "Painted Plaster Wall.001": {
+            "shader": "Main shader"
+        },
+        "Plastic": {
+            "shader": "Main shader"
+        },
+        "Plastic White 11": {
+            "shader": "Main shader"
+        },
+        "Plastic_Fire Alarm_Red": {
+            "shader": "Main shader"
+        },
+        "Plastic_Fire Alarm_White": {
+            "shader": "Main shader"
+        },
+        "Przelacznik": {
+            "shader": "Main shader"
+        },
+        "Stainless Steel.001": {
+            "shader": "Main shader"
+        },
+        "Stainless Steel.002": {
+            "shader": "Main shader"
+        },
+        "Strobe_Color": {
+            "shader": "Main shader"
+        },
+        "Transparent plastic": {
+            "shader": "Main shader"
+        },
+        "Wood_dark": {
+            "shader": "Main shader"
+        },
+        "blinds_fabric": {
+            "shader": "Main shader"
+        },
+        "blinds_plastic": {
+            "shader": "Main shader"
+        },
+        "blinds_tie": {
+            "shader": "Main shader"
+        },
+        "book cover": {
+            "shader": "Main shader"
+        },
+        "ekran_monitora": {
+            "shader": "Main shader"
+        },
+        "klamka": {
+            "shader": "Main shader"
+        },
+        "klucz": {
+            "shader": "Main shader"
+        },
+        "listwa": {
+            "shader": "Main shader"
+        },
+        "monitor_buttons.001": {
+            "shader": "Main shader"
+        },
+        "monitor_led.001": {
+            "shader": "Main shader"
+        },
+        "monitor_metal 01.001": {
+            "shader": "Main shader"
+        },
+        "monitor_metal white.001": {
+            "shader": "Main shader"
+        },
+        "monitor_plastic.001": {
+            "shader": "Main shader"
+        },
+        "monitor_screen.001": {
+            "shader": "Main shader"
+        },
+        "paper": {
+            "shader": "Main shader"
+        },
+        "parapet": {
+            "shader": "Main shader"
+        },
+        "rama": {
+            "shader": "Main shader"
+        },
+        "zamek_kłódka": {
+            "shader": "Main shader"
+        },
+        "zasilacz_od_alarmu": {
+            "shader": "Main shader"
+        },
+        "ściana_od_alarmu": {
+            "shader": "Main shader"
+        }
+    }
+}
